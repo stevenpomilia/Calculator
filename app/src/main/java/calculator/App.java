@@ -10,5 +10,9 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+        Calculator c = new Calculator();
+        int answer = c.add(1, 2);
+        System.out.println("1 + 1 = " + answer);
     }
 }
